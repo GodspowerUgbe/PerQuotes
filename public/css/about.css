@@ -1,0 +1,78 @@
+body {
+  color: var(--col);
+}
+
+.intro {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro p{
+    line-height:2;
+    font-size:1.3rem;
+    font-weight:400;
+}
+
+.intro h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.values, .pillars, .awards, .cta {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.values p, .pillars p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pillar h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.awards ul {
+  list-style: none;
+  padding: 0;
+}
+
+.awards li {
+  margin-bottom: 1rem;
+}
+
+

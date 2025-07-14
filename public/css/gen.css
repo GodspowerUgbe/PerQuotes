@@ -1,0 +1,67 @@
+@font-face{
+    font-family:'abho';
+    src:url('../fonts/abho-font/AbhoLuxuryDemoRegular-rvJRB.otf') format('opentype');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --themeCol:#c5386c;
+    --bgCol:whitesmoke;
+    --col:#222;
+}
+
+body{
+    color:var(--col);
+    background-color:var(--bgCol);
+    font-family:'Segoe UI',Verdana,tahoma,sans-serif;
+    font-size:1.1rem;
+    line-height:1.2
+}
+
+.navbar{
+        border-bottom:1px solid silver;
+        display:flex;
+        justify-content:space-between
+    }
+
+    .joe-logo{
+        color:var(--themeCol) !important;
+    }
+
+
+    header{
+        background-color:var(--bgCol);
+    }
+    
+    
+
+    button.nav-item{
+      background:inherit;
+      border:none;
+    }
+
+    li.nav-item a:hover {
+      background-color:var(--themeCol) !important;
+      color:whitesmoke !important;
+    }
+
+    button.nav-item .btn{
+        background-color:var(--themeCol);
+        border:none;
+        border-radius:2rem;
+        padding:0.5em 1em;
+    }
+
+    .footer {
+      padding: 60px 0;
+      background-color: #f8f9fa;
+    }
+
+    .footer h6 {
+      font-weight: bold;
+    }
