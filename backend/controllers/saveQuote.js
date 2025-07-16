@@ -9,7 +9,7 @@ async function store(name) {
         try {
             const res = await fetch('https://api.api-ninjas.com/v1/quotes',{
                 headers: { 
-                    'X-Api-Key': 'DrVfOuJnOw0/M8PB8+/9gw==I6NSCcs1YRSLkS8C'
+                    'X-Api-Key': process.env.API_NINJAS_KEY
     
                 } 
             });
